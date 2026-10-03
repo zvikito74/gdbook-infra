@@ -1,0 +1,12 @@
+# Local Terraform state and provider downloads
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Variable files can hold private values
+terraform.tfvars
+*.auto.tfvars
+
+# Keys
+*.pem
